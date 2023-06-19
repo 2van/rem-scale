@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "css-to-json": "^2.1.0"
+  }
+}

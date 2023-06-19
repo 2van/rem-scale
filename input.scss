@@ -1,0 +1,79 @@
+.header {
+  @media (min-width: 0px) {
+    .h1,
+    h1 {
+      font-size: calc(
+        ((var(--font-h1-mobile)) / (var(--font-base-size))) * 0.427rem
+      );
+    }
+    .h2,
+    h2 {
+      font-size: calc(
+        ((var(--font-h2-mobile)) / (var(--font-base-size))) * 0.427rem
+      );
+    }
+    .h3,
+    h3 {
+      font-size: calc(
+        ((var(--font-h3-mobile)) / (var(--font-base-size))) * 0.427rem
+      );
+    }
+    .h4,
+    h4 {
+      font-size: calc(
+        ((var(--font-h4-mobile)) / (var(--font-base-size))) * 0.427rem
+      );
+    }
+    .h5,
+    h5 {
+      font-size: calc(
+        ((var(--font-h5-mobile)) / (var(--font-base-size))) * 0.427rem
+      );
+    }
+    .h6,
+    h6 {
+      font-size: calc(
+        ((var(--font-h6-mobile)) / (var(--font-base-size))) * 0.427rem
+      );
+      line-height: 1.4;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    & .h1,
+    & h1 {
+      font-size: calc(
+        ((var(--font-h1-desktop)) / (var(--font-base-size))) * 1rem
+      );
+    }
+    & .h2,
+    & h2 {
+      font-size: calc(
+        ((var(--font-h2-desktop)) / (var(--font-base-size))) * 1rem
+      );
+    }
+    & .h3,
+    & h3 {
+      font-size: calc(
+        ((var(--font-h3-desktop)) / (var(--font-base-size))) * 1rem
+      );
+    }
+    & .h4,
+    & h4 {
+      font-size: calc(
+        ((var(--font-h4-desktop)) / (var(--font-base-size))) * 1rem
+      );
+    }
+    & .h5,
+    & h5 {
+      font-size: calc(
+        ((var(--font-h5-desktop)) / (var(--font-base-size))) * 1rem
+      );
+    }
+    & .h6,
+    & h6 {
+      font-size: calc(
+        ((var(--font-h6-desktop)) / (var(--font-base-size))) * 1rem
+      );
+    }
+  }
+}
